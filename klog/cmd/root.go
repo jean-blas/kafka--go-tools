@@ -29,12 +29,12 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "klogparser",
-	Short: "Open a kafka log file and parse it",
+	Use:   "klog",
+	Short: "Open a kafka topic related log files and parse them, enabling offset resolution",
 	// Long: ``,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
-	//	Run: func(cmd *cobra.Command, args []string) { },
+	// 	Run: func(cmd *cobra.Command, args []string) { },
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.

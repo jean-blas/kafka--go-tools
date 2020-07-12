@@ -1,6 +1,6 @@
 package main
 
-import "kafkaLogParser/kparser/cmd"
+import "kafkaLogParser/klog/cmd"
 
 func main() {
 	cmd.Execute()
